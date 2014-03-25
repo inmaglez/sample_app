@@ -7,6 +7,7 @@ ruby '2.0.0'
 #ruby-gemset=sample_app
 
 gem 'rails', '4.0.2'
+gem 'bootstrap-sass', '2.3.2.0'
 
 group :development, :test  do #2
    gem 'sqlite3', '1.3.8'
@@ -19,7 +20,7 @@ group :test  do #3
 end
 
 
-gem 'sass-rails', '4.0.1'
+gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.0.4' # It was gem 'jquery-rails' 3
